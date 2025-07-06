@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VISIONFLOW – Modern Advisory</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <nav>
+    <div class="logo">VISIONFLOW</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#booking">Book a Call</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Open menu" onclick="toggleNav()">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="hero-inner">
+      <h1>VISIONFLOW</h1>
+      <p class="hero-tagline">Modern Advisory for Visionary Leaders</p>
+      <p class="hero-desc">
+        Where technology meets tradition. We craft digital and AI solutions for the world’s most discerning clients.
+      </p>
+      <a href="#booking" class="hero-cta">Book a Personal Call</a>
+    </div>
+  </section>
+
+  <div class="widgets-section">
+    <div class="widget">
+      <div class="widget-icon">
+        <!-- AI symbol SVG -->
+        <svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" stroke="var(--gold)" stroke-width="2" fill="none"/><rect x="12" y="12" width="8" height="8" rx="2" fill="var(--gold)" opacity="0.7"/></svg>
+      </div>
+      <div class="widget-title">Why AI Now?</div>
+      <div class="widget-value">Stay ahead of the curve</div>
+      <div class="widget-desc">
+        AI is transforming the market. Early adopters streamline operations, reduce costs, and unlock new growth—while competitors risk falling behind.
+      </div>
+    </div>
+    <div class="widget">
+      <div class="widget-icon">
+        <!-- Gear SVG -->
+        <svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="8" stroke="var(--gold)" stroke-width="2" fill="none"/><path d="M16 4v4M16 24v4M28 16h-4M8 16H4M23.31 8.69l-2.83 2.83M11.52 20.48l-2.83 2.83M23.31 23.31l-2.83-2.83M11.52 11.52l-2.83-2.83" stroke="var(--gold)" stroke-width="2" fill="none"/></svg>
+      </div>
+      <div class="widget-title">Automate What Matters</div>
+      <div class="widget-value">Focus on your core</div>
+      <div class="widget-desc">
+        Let AI handle routine and repetitive work—so your team can focus on what truly drives value for your business and clients.
+      </div>
+    </div>
+    <div class="widget">
+      <div class="widget-icon">
+        <!-- Lightbulb SVG -->
+        <svg viewBox="0 0 32 32"><ellipse cx="16" cy="16" rx="8" ry="10" stroke="var(--gold)" stroke-width="2" fill="none"/><rect x="12" y="24" width="8" height="4" rx="1.5" fill="var(--gold)" opacity="0.7"/></svg>
+      </div>
+      <div class="widget-title">Unlock New Ideas</div>
+      <div class="widget-value">Innovate, don't imitate</div>
+      <div class="widget-desc">
+        Automations open the door to new services, products, and business models—giving you a competitive edge in your sector.
+      </div>
+    </div>
+    <div class="widget">
+      <div class="widget-icon">
+        <!-- Shield SVG -->
+        <svg viewBox="0 0 32 32"><path d="M16 4l12 4v8c0 7-5.5 13-12 13S4 23 4 16V8l12-4z" stroke="var(--gold)" stroke-width="2" fill="none"/><path d="M16 22a6 6 0 0 0 6-6" stroke="var(--gold)" stroke-width="2" fill="none"/></svg>
+      </div>
+      <div class="widget-title">Reduce Risk</div>
+      <div class="widget-value">Operate with confidence</div>
+      <div class="widget-desc">
+        Smart automation minimizes human error, ensures compliance, and strengthens your reputation for reliability.
+      </div>
+    </div>
+  </div>
+
+  <div class="featured-bar" title="Featured by">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Forbes_logo.svg" alt="Forbes" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Bloomberg_logo.svg" alt="Bloomberg" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Financial_Times_corporate_logo.svg" alt="Financial Times" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Handelsblatt_Logo_2018.svg" alt="Handelsblatt" />
+  </div>
+
+  <section id="about" class="about-section">
+    <div class="about-wrap">
+      <div class="about-img">
+        <img src="https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=900&q=80" alt="Luxury lobby, marble, calming light">
+      </div>
+      <div class="about-text">
+        <h2>Our Ethos</h2>
+        <p>
+          VISIONFLOW is committed to the art of lasting value. We combine digital expertise with a deep respect for craft, confidentiality, and your vision.
+        </p>
+        <p>
+          Our approach is discreet, personal, and always bespoke — for those who expect more than the ordinary.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services-section">
+    <div class="services-title">Our Services</div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">
+          <img src="https://img.icons8.com/ios-filled/50/C5B358/artificial-intelligence.png" alt="AI Advisory">
+        </div>
+        <h3>AI Advisory & Strategy</h3>
+        <p>
+          Tailored AI strategies, from concept to integration, in harmony with your corporate philosophy.
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">
+          <img src="https://img.icons8.com/ios-filled/50/C5B358/process.png" alt="Digital Renaissance">
+        </div>
+        <h3>Digital Renaissance</h3>
+        <p>
+          Guide your transformation with proven methods and contemporary technology for resilience and efficiency.
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">
+          <img src="https://img.icons8.com/ios-filled/50/C5B358/settings.png" alt="System Refinement">
+        </div>
+        <h3>System Refinement</h3>
+        <p>
+          Elevate your systems for productivity and delight across the entire enterprise.
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">
+          <img src="https://img.icons8.com/ios-filled/50/C5B358/handshake.png" alt="Continual Counsel">
+        </div>
+        <h3>Continual Counsel</h3>
+        <p>
+          Enduring partnership, attentive support, and bespoke instruction for your ongoing distinction.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials-section">
+    <div class="testimonial-title">What Our Clients Say</div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-quote">
+          “VISIONFLOW did not simply digitize our business; they transformed it. Their technical mastery and human warmth are truly unique.”
+        </div>
+        <div class="testimonial-author">Elisabeth Müller-Hoffmann</div>
+        <div class="testimonial-role">CEO, Hoffmann & Partners</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-quote">
+          “In a world of soulless tech, VISIONFLOW offers wisdom-driven solutions. We realized our vision with elegance and sustainability.”
+        </div>
+        <div class="testimonial-author">Alexander von Steinberg</div>
+        <div class="testimonial-role">Chairman, Steinberg Innovations</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-quote">
+          "Their discretion and responsiveness are second to none. We felt understood — and delivered beyond expectations."
+        </div>
+        <div class="testimonial-author">Jean-Paul Lorin</div>
+        <div class="testimonial-role">Managing Director, Lorin Group</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking" class="cta-section">
+    <h2>Arrange a Personal Conversation</h2>
+    <p>
+      In keeping with the finest traditions of personal counsel, we invite you to a brief, no-obligation call.<br>
+      Discretion and clarity await.
+    </p>
+    <iframe src="https://calendly.com/max-gonther/quick-call?hide_event_type_details=1&hide_gdpr_banner=1"
+            class="booking-iframe"
+            title="Book a call with VISIONFLOW"
+            allowtransparency="true"></iframe>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title">Correspondence</h2>
+      <p class="section-subtitle">
+        Should you wish to begin a conversation, we welcome your enquiry.<br>
+        It is our privilege to listen.
+      </p>
+      <div style="margin-bottom:1.5rem;"></div>
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name">
+        </div>
+        <div class="form-group">
+          <label for="email">E-Mail</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com">
+        </div>
+        <div class="form-group">
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company" placeholder="Your company (optional)">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="How may we be of service?"></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+      <div style="text-align: center; margin-top: 2.3rem; padding-top: 1.7rem; border-top: 1px solid var(--gold-soft);">
+        <p style="margin-bottom: .8rem; color: var(--gold);">Direct Contact</p>
+        <p>
+          <strong>E-Mail:</strong>
+          <a href="mailto:visionflow@gmx.net" style="color: var(--gold); text-decoration: underline;">visionflow@gmx.net</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER SIGNUP SECTION -->
+  <section id="newsletter" class="newsletter-section">
+    <div class="newsletter-inner">
+      <h2>Stay Ahead – Join Our Insights</h2>
+      <p>Receive exclusive AI & automation strategies for your business.<br>
+        One email per month. No spam, ever.</p>
+      <form class="newsletter-form" onsubmit="event.preventDefault(); newsletterSignup();">
+        <input type="email" id="newsletter-email" name="email" required placeholder="Your email address">
+        <button type="submit">Subscribe</button>
+      </form>
+      <div id="newsletter-thankyou" class="newsletter-thankyou">Thank you for subscribing!</div>
+    </div>
+  </section>
+  <!-- END NEWSLETTER SIGNUP -->
+
+</main>
+
+<footer>
+  <div class="footer-logo">VISIONFLOW</div>
+  <div class="footer-links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#booking">Book a Call</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <p>&copy; 2025 VISIONFLOW. All rights reserved.</p>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
